@@ -37,8 +37,16 @@ def ask_for_an_operator(force_valid_input):
 
 
 def calc(operator, a, b):
-    pass
-
+    if not is_valid_operator(operator) or not is_number(a) or not is_number(b):
+        return None
+    
+    result None
+    if operator == "+":
+        result = a + b
+        return result 
+    elif opertator == "-"
+        result == a - b 
+    elif 
 
 def simple_calculator():
     pass
